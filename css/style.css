@@ -229,6 +229,13 @@ figure {
   text-align: center;
   text-decoration: none;
 }
+/* Target specific icons to change their color */
+.fa-github-square, .fa-linkedin, .fa-facebook-square, .fa-twitter-square, .fa-heart {
+  color: black; /* or any other color you prefer */
+  font-size: 1.5em;
+  padding-inline: 5px;
+}
+
 
 /* Add a hover effect if you want */
 .fa:hover {
