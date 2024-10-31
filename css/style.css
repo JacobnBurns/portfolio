@@ -61,6 +61,11 @@ figure {
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
+img {
+  max-width: 100%;
+  height: auto;
+  size: cover;
+}
 
 ::-webkit-selection {
   color: #fff;
@@ -981,6 +986,7 @@ body.offcanvas {
       color: #2c98f0; }
 
 .project {
+  image-rendering: optimizeQuality;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
